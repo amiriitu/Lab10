@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    width: 19%;
+    height: 100%;
+    position: fixed;
+}
+
+.sidebar h2 {
+    font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family: Crimson Text;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3em;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    line-height: 30px;
+    color: #030303;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.menu {
+    position: relative;
+    margin-top: 7%;
+    display: block;
+}
+
+.menu a {
+    font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: baskerville-urw;
+    display: block;
+    padding: 4px 0;
+    color: #050505;
+    transition: color;
+    text-decoration: none;
+    margin-left: 5%;
+    font-size: 80%;
+    text-align: -webkit-match-parent;
+    transition: 0.5s;
+}
+
+.menu a:hover {
+    color: gray;
+}
+
+.about {
+    position: absolute;
+    bottom: 5%;
+    margin-left: 5%;
+}
+
+.about a {
+    font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    letter-spacing: 0px;
+    font-family: baskerville-urw;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 0.8em;
+    letter-spacing: .9px;
+    text-transform: none;
+    line-height: 1.25em;
+    display: block;
+    text-decoration: none;
+    color: #030303;
+    text-align: -webkit-match-parent;
+    transition: 0.5s;
+}
+
+.about a:hover {
+    color: gray;
+}
+
+.photo {
+    position: relative;
+    display: inline-block;
+}
+
+.photo img {
+    position: relative;
+    float: left;
+    display: block;
+    width: 49%;
+    height: 49%;
+    margin: 0.1%;
+}
+
+.ins {
+    position: relative;
+    margin-top: 10%;
+    width: 25%;
+    height: 25%;
+}
+
+.port {
+    margin-top: 2%;
+    position: relative;
+    width: 70%;
+    margin-left: 20%;
+}
+
+.port em {
+    display: block;
+    font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0px;
+    font-style: italic;
+    line-height: 1.75em;
+    font-weight: 400;
+    letter-spacing: .03em;
+    text-transform: none;
+    line-height: 1.4em;
+    color: #000;
+}
+
+.photo-2 {
+    position: relative;
+    display: inline-block;
+    margin: 1%;
+}
+
+.third {
+    position: relative;
+    width: 95%;
+    margin: 1%;
+}
+
+.photo-2 img {
+    position: relative;
+    display: block;
+    float: left;
+    width: 23%;
+    margin: 1%;
+}
+
+.photo-10 {
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+}
